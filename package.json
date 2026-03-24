@@ -1,0 +1,20 @@
+{
+  "name": "nodejsn",
+  "version": "1.0.0",
+  "description": "Curso express",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
