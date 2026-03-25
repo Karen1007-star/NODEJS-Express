@@ -1,0 +1,13 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/users
+method: POST
+body:
+  type: json
+  content: |2-
+      {
+        "id": 5,
+        "name": "Usuario 5",
+        "email": "usuario1@example.com"
+      }
+order: 1774381424278
